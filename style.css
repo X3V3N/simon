@@ -1,0 +1,86 @@
+body {
+    background-color: #020822;
+    text-align: center;
+}
+h1 {
+    color: #FFF5E0;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+.Points {
+    position: absolute;
+    color: whitesmoke;
+    right: 2%;
+    top: 2%;
+    border: solid rgb(255, 255, 255);
+    padding: 10px;
+}
+.Main {
+    position: absolute;
+    bottom: 3%;
+    right: 31%;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    border: solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+@media(max-width: 1024px) {
+    .Main {
+        position: absolute;
+        bottom: 40%;
+        right: 20%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .Points {
+        padding: 15px;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}
+@media(max-height: 715px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+    .Main {
+        bottom: 6%;
+        right: 35%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .Points {
+        padding: 5px;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+.Red {
+    background-color: #4f001e;
+    position: relative;
+    float: left;
+}
+.Blue {
+    background-color: rgb(5, 5, 68);
+    position: relative;
+    float: right;
+}
+.Green {
+    background-color: rgb(1, 43, 1);
+    position: relative;
+    float: left;
+}
+.Yellow {
+    background-color: rgb(63, 45, 0);
+    position: relative;
+    float: right;
+}
