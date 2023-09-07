@@ -29,7 +29,7 @@ function update()
         }
         setTimeout(() => {
           targetElement.style.backgroundColor = originalBackgroundColor;
-        }, 2000);
+        }, 1500);
       }
       changeBackgroundColor();
 
